@@ -1,0 +1,66 @@
+:root {
+  --main-color: #911010;
+  --sub-color: #FAB3B3;
+  --h1: 72px;
+  --h2: 48px;
+  --h3: 32px;
+  --h4: 24px;
+  --h5: 20px;
+  --h6: 18px;
+  --h7: 16px;
+  --h8: 14px;
+  --h9: 12px;
+  --h10: 10px;
+  --h11: 8px;
+  --ff1: 'Mochiy Pop One', sans-serif;
+  --ff2: 'Zen Maru Gothic', sans-serif;
+  --ff3: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('/background/kodawari_bg_cut.jpg');
+  background-repeat: repeat;
+  height: 100%;
+}
+
+#__next {
+  height: auto;
+}
+
+html {
+  height: 100%;
+}
+
+
+main {
+  min-height: calc(100vh - 360px - 470px);
+}
+
+
+
+@font-face {
+  font-family: 'Zen Maru Gothic';
+  /* 使用正確的字型名稱 */
+  src: url('/fonts/ZenMaruGothic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mochiy Pop One';
+  font-weight: bold;
+  font-style: normal;
+  src: url('/fonts/MochiyPopOne-Regular.ttf') format('truetype');
+}
